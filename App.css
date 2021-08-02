@@ -1,0 +1,31 @@
+*{
+margin:0;
+}
+.app_header{
+  padding :20px;
+  background-color: white;
+  border:1px solid lightgray;
+  object-fit:contain;
+  position:sticky;
+  top:0;
+  display:flex;
+  justify-content: space-between;
+  
+} 
+.app_headerImage{
+  object-fit:contain;
+  align-items:center;
+
+}
+.app_post{
+  padding:20px;
+}
+.app_signup{
+display: flex;
+flex-direction: column;
+}
+.app__loginContainer{
+  border-radius: 10px;
+  border-style: solid;
+  color:white;
+}
